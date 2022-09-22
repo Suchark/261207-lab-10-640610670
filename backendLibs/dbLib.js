@@ -2,7 +2,7 @@ import fs from "fs";
 
 export function readDB() {
   const srt = fs.readFileSync("db/chatroom.json", { encoding: "utf-8" });
-  const chatroom = JSON.parse(srt);
+  const chatroom = JSON.parse(str);
   return chatroom;
 }
 
